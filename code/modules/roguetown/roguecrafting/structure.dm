@@ -1277,6 +1277,36 @@
 	wallcraft = TRUE
 	ontile = TRUE
 
+/datum/crafting_recipe/roguetown/structure/rcom
+	name = "RCOM"
+	category = "Misc"
+	result = /obj/structure/roguemachine/scomm/receive_only
+	reqs = list(/obj/item/ingot/iron = 1,
+					/obj/item/reagent_containers/food/snacks/smallrat = 1)
+	verbage_simple = "assemble"
+	verbage = "assembles"
+	skillcraft = /datum/skill/magic/arcane
+	craftdiff = 3
+	wallcraft = TRUE
+	ontile = TRUE
+
+//Caustic Edit
+/datum/crafting_recipe/roguetown/structure/rcom
+	name = "RCOM"
+	category = "Misc"
+	result = /obj/structure/roguemachine/scomm/receive_only
+	reqs = list(/obj/item/ingot/iron = 1,
+					/obj/item/reagent_containers/food/snacks/crow = 1,
+					/obj/item/paper/scroll = 1)
+	verbage_simple = "assemble"
+	verbage = "assembles"
+	skillcraft = /datum/skill/craft/engineering
+	craftdiff = 3
+	wallcraft = TRUE
+	ontile = TRUE
+	//Lets homesteaders have a way to communicate w/o having to run to town
+//Caustic Edit End
+
 /datum/crafting_recipe/roguetown/structure/cauldronalchemy
 	name = "alchemy cauldron"
 	category = "Misc"
