@@ -119,7 +119,7 @@
 	reqs = list(/obj/item/natural/stone = 2)
 	verbage_simple = "build"
 	verbage = "builds"
-	skillcraft = /datum/skill/craft/masonr
+	skillcraft = /datum/skill/craft/masonry
 
 /datum/crafting_recipe/roguetown/structure/doorbolt
 	name = "wooden door (deadbolt)"
