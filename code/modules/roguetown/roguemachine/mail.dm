@@ -490,6 +490,10 @@
 				qdel(C)
 				var/obj/item/natural/feather/quill = new
 				user.put_in_hands(quill)
+			if(10) // Caustic Edit Start
+				qdel(C)
+				var/obj/item/reagent_containers/food/snacks/crow
+				user.put_in_hands(crow) // Caustic Edit End
 			else
 				to_chat(user, span_warning("Not a valid denomination! Insert 1 mammon for paper, 5 mammon for a quill."))
 				return
