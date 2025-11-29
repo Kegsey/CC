@@ -85,7 +85,7 @@
 		/datum/crafting_recipe/roguetown/turfs/wood/floor,
 		/datum/crafting_recipe/roguetown/turfs/wood/platform,
 		/datum/crafting_recipe/roguetown/turfs/wood/wall,
-		/datum/crafting_recipe/roguetown/turfs/wood/wall/alt,
+		/datum/crafting_recipe/roguetown/turfs/wood/walla,
 		/datum/crafting_recipe/roguetown/turfs/wood/fancy,
 		/datum/crafting_recipe/roguetown/turfs/wood/murderhole,
 		/datum/crafting_recipe/roguetown/turfs/wood/murderhole/alt
