@@ -84,7 +84,7 @@
 	craftdiff = 2
 	category = "Walls"
 
-/datum/crafting_recipe/roguetown/turfs/wood/wall/alt
+/datum/crafting_recipe/roguetown/turfs/wood/walla
 	name = "wall alt(wood)"
 	reqs = list(/obj/item/natural/wood/plank = 2)
 	category = "Walls"
