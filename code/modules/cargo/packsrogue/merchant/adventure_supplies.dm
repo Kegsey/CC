@@ -95,7 +95,12 @@
 	name = "folding cauldron"
 	cost = 45
 	contains = list(/obj/item/folding_alchcauldron_stored)
-
+//caustic edit start
+/datum/supply_pack/rogue/adventure_supplies/mobilestove
+	name = "mobile stove"
+	cost = 60
+	contains = list(/obj/machinery/light/rogue/campfire)
+//caustic edit end
 /datum/supply_pack/rogue/adventure_supplies/mess_kit
 	name = "Mess Kit"
 	cost = 60
