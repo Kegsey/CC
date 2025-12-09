@@ -56,7 +56,7 @@
 	var/aoe_range = 0
 
 // Caustic Edit
-/obj/effect/proc_holder/spell/invoked/projectile/frostbolt/arc
+/obj/projectile/magic/frostbolt/arc
 	name = "Arced Frostbolt"
 	damage = 15 // 25% damage penalty
 	arcshot = TRUE
